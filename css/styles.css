@@ -164,6 +164,6 @@ h2 {
 
 .music-container audio {
     margin-top: 10px; /* 为音频播放器添加上边距 */
-    margin-right: 300px;
+    margin-right: 30px;
     text-align: center; /* 确保音频播放器居中 */
 }
