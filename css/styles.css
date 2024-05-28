@@ -39,27 +39,22 @@ header h1 {
     align-items: center;
     text-align: center;
     width: 760px; /* 设置宽度为800px */
-    /*background-color: rgba(0, 0, 0, 0.5); /* 设置背景颜色为半透明黑色 */
     background: url('../images/background2.jpg') no-repeat center center; /* 设置背景图片 */
     background-size: cover; /* 保持背景图片比例 */
     padding: 20px; /* 添加内边距 */
     margin: 20px auto; /* 使容器居中 */
     border-radius: 10px; /* 圆角 */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影 */
-    
 }
 
 h3 {
     font-size: 3.6em;
-    
 }
 
 .countdown-container {
     display: flex;
     justify-content: center;
     gap: 50px;
-    
-    
 }
 
 .countdown-el {
@@ -77,6 +72,19 @@ h3 {
     font-size: 3.6em;
 }
 
+.message-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 760px; /* 设置宽度为800px */
+    background: url('../images/background_raw.png') no-repeat center center; /* 设置背景图片 */
+    background-size: cover; /* 保持背景图片比例 */
+    padding: 20px; /* 添加内边距 */
+    margin: 20px auto; /* 使容器居中 */
+    border-radius: 10px; /* 圆角 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影 */
+}
 
 .message {
     border: 1px solid #ccc;
@@ -86,23 +94,6 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    
-    
-}
-
-.message-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: 760px; /* 设置宽度为800px */
-    /*background-color: rgba(0, 0, 0, 0.5); /* 设置背景颜色为半透明黑色 */
-    background: url('../images/background_raw.png') no-repeat center center; /* 设置背景图片 */
-    background-size: cover; /* 保持背景图片比例 */
-    padding: 20px; /* 添加内边距 */
-    margin: 20px auto; /* 使容器居中 */
-    border-radius: 10px; /* 圆角 */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影 */
 }
 
 h2 {
@@ -156,7 +147,6 @@ h2 {
     align-items: center;
     text-align: center;
     width: 760px; /* 设置宽度为800px */
-    /*background-color: rgba(0, 0, 0, 0.5); /* 设置背景颜色为半透明黑色 */
     background: url('../images/background_raw.png') no-repeat center center; /* 设置背景图片 */
     background-size: cover; /* 保持背景图片比例 */
     padding: 20px; /* 添加内边距 */
@@ -174,6 +164,6 @@ h2 {
 
 .music-container audio {
     margin-top: 10px; /* 为音频播放器添加上边距 */
-    margin-right: 40px;
+    margin-right: 300px;
     text-align: center; /* 确保音频播放器居中 */
 }
