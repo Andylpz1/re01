@@ -1,0 +1,179 @@
+@font-face {
+    font-family: "GenericMobile";
+    src: url("../font/GenericMobileSystemO.ttf") format("truetype");
+}
+
+body {
+    font-family: "GenericMobile", sans-serif;
+    background: url('../images/grass.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+header {
+    background: url('../images/title_june.png') no-repeat center center;
+    background-size: contain; /* 保持比例 */
+    width: 800px;
+    height: 100%; 
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    line-height: 150px; /* 让标题在150px高的header中垂直居中 */
+    margin: 0;
+    font-size: 6em;
+    color: #81d4fa;
+    padding-top: 2px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 760px; /* 设置宽度为800px */
+    /*background-color: rgba(0, 0, 0, 0.5); /* 设置背景颜色为半透明黑色 */
+    background: url('../images/background2.jpg') no-repeat center center; /* 设置背景图片 */
+    background-size: cover; /* 保持背景图片比例 */
+    padding: 20px; /* 添加内边距 */
+    margin: 20px auto; /* 使容器居中 */
+    border-radius: 10px; /* 圆角 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影 */
+    
+}
+
+h3 {
+    font-size: 3.6em;
+    
+}
+
+.countdown-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+    
+}
+
+.countdown-el {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.big-text {
+    font-size: 9em;
+    margin: 0;
+}
+
+.countdown-el span {
+    font-size: 3.6em;
+}
+
+
+.message {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    
+}
+
+.message-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 760px; /* 设置宽度为800px */
+    /*background-color: rgba(0, 0, 0, 0.5); /* 设置背景颜色为半透明黑色 */
+    background: url('../images/background_raw.png') no-repeat center center; /* 设置背景图片 */
+    background-size: cover; /* 保持背景图片比例 */
+    padding: 20px; /* 添加内边距 */
+    margin: 20px auto; /* 使容器居中 */
+    border-radius: 10px; /* 圆角 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影 */
+}
+
+h2 {
+    font-size: 3.6em;
+}
+
+.message-text {
+    margin: 0 0 10px 0;
+    font-size: 1.2em;
+}
+
+.message-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.message button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #ff69b4;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.message button:hover {
+    background-color: #ff1493;
+}
+
+/* 特定按钮的样式 */
+.message button.like-button,
+.message button.dislike-button {
+    background-color: #ddd;
+    color: #000;
+}
+
+.message button.like-button:hover,
+.message button.dislike-button:hover {
+    background-color: #bbb;
+}
+
+#music-player {
+    margin: 10px;
+    text-align: center;
+}
+
+.music-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 760px; /* 设置宽度为800px */
+    /*background-color: rgba(0, 0, 0, 0.5); /* 设置背景颜色为半透明黑色 */
+    background: url('../images/background_raw.png') no-repeat center center; /* 设置背景图片 */
+    background-size: cover; /* 保持背景图片比例 */
+    padding: 20px; /* 添加内边距 */
+    margin: 20px auto; /* 使容器居中 */
+    border-radius: 10px; /* 圆角 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影 */
+}
+
+.music-container p {
+    margin: 0 0 10px 0; /* 调整段落的下边距 */
+    font-size: 3.6em;
+    line-height: 1.2; /* 调整行高，使文本更紧凑 */
+    text-align: center; /* 确保文本居中 */
+}
+
+.music-container audio {
+    margin-top: 10px; /* 为音频播放器添加上边距 */
+    margin-right: 40px;
+    text-align: center; /* 确保音频播放器居中 */
+}
