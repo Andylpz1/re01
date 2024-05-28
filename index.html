@@ -6,20 +6,13 @@
     <title>你好哇</title>
     <link rel="stylesheet" href="css/styles.css">
     <script src="scripts/timer.js" defer></script>
-    <script src="scripts/header-date.js" defer></script> <!-- 确保路径正确 -->
+    <script src="scripts/header-date.js" defer></script> 
+    <script src="scripts/message-board.js"></script>
 </head>
 <body>
     <header>
         <h1 id="currentDate"></h1>
     </header>
-
-    <!-- music -->
-    <div id="music-player" class="music-container">
-        <p>Music Time！</p>
-        <audio controls>
-            <source src="lovestory.mp3" type="audio/mpeg">
-        </audio>
-    </div>
 
     <div class="container">
         <h3>Our Story</h3>
@@ -61,6 +54,12 @@
         </div>
     </div>
 
-    <script src="scripts/message-board.js"></script>
+    <!-- music -->
+    <div id="music-player" class="music-container">
+        <p>Music Time！</p>
+        <audio controls>
+            <source src="music/lovestory.mp3" type="audio/mpeg">
+        </audio>
+    </div>
 </body>
 </html>
